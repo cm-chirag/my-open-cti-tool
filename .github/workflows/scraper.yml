@@ -1,0 +1,38 @@
+name: Run Threat Intel Scraper
+
+on:
+  schedule:
+    - cron: '0 */2 * * *' # This tells GitHub to run this code automatically every 2 hours
+  workflow_dispatch:      # This adds a manual "Play" button so we can test it right now
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      # Step A: Copy our repo files onto GitHub's cloud computer
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      # Step B: Install Python on their computer
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Step C: Install the "requests" library so our script can browse the web
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      # Step D: Execute our python script
+      - name: Run our CTI script
+        run: python main.py
+
+      # Step E: Take the updated indicators.json and save it back to our repo
+      - name: Save updated data to GitHub
+        run: |
+          git config --global user.name "CTI-Bot"
+          git config --global user.email "cti-bot@users.noreply.github.com"
+          git add data/indicators.json
+          git diff-index --quiet HEAD || git commit -m "Automated Intel Update: $(date -u)"
+          git push
