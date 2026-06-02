@@ -1,47 +1,52 @@
 import requests
 import json
-import os
 from datetime import datetime
 
-# 1. The URL of the free threat intelligence feed (Top 300 recent malicious links)
-FEED_URL = "https://urlhaus.abuse.ch/downloads/json/recent/"
+# A highly reliable, open-source feed of known malicious IP addresses
+FEED_URL = "https://rules.emergingthreats.net/blockrules/compromised-ips.txt"
 DATA_FILE = "data/indicators.json"
 
 def fetch_and_process_intel():
-    print("Fetching latest threat intelligence...")
+    print("Fetching latest threat intelligence from Emerging Threats...")
     
-    # 2. Go to the internet and grab the data
+    # 1. Grab the plain text IP list
     response = requests.get(FEED_URL)
     if response.status_code != 200:
-        print("Failed to fetch data from the open-source feed.")
+        print(f"Failed to fetch data. Status code: {response.status_code}")
         return
         
-    raw_data = response.json()
+    # 2. Clean up the text data (split by lines)
+    raw_lines = response.text.splitlines()
     
-    # 3. Create a clean structure for our storage
     cleaned_intel = {
         "last_updated": datetime.utcnow().isoformat() + "Z",
-        "malicious_urls": []
+        "malicious_ips": []
     }
     
-    # 4. Loop through the raw data and pull out only what we care about
-    # URLhaus structures their JSON with an "urls" key containing a list
-    for entry in raw_data.get("urls", [])[:50]: # Let's just grab the top 50 newest threats
-        url_data = {
-            "id": entry.get("id"),
-            "url": entry.get("url"),
-            "status": entry.get("url_status"),
-            "threat_type": entry.get("threat"),
-            "reported_at": entry.get("date_added")
+    # 3. Filter out comments and blank lines, then grab the top 50 malicious IPs
+    for line in raw_lines:
+        line = line.strip()
+        # Skip empty lines or lines starting with '#' (comments)
+        if not line or line.startswith('#'):
+            continue
+            
+        # If it looks like a valid IP entry, add it to our list
+        ip_data = {
+            "ip_address": line,
+            "threat_type": "Compromised Host / Botnet",
+            "confidence": "High"
         }
-        cleaned_intel["malicious_urls"].append(url_data)
+        cleaned_intel["malicious_ips"].append(ip_data)
         
-    # 5. Save the clean data back into our filing cabinet folder
+        # Stop once we have 50 items so our file stays lightweight
+        if len(cleaned_intel["malicious_ips"]) >= 50:
+            break
+        
+    # 4. Save the populated list to our filing cabinet
     with open(DATA_FILE, "w") as f:
         json.dump(cleaned_intel, f, indent=4)
         
-    print(f"Successfully saved {len(cleaned_intel['malicious_urls'])} active threats to {DATA_FILE}!")
+    print(f"Successfully saved {len(cleaned_intel['malicious_ips'])} active threat IPs to {DATA_FILE}!")
 
 if __name__ == "__main__":
     fetch_and_process_intel()
-  
