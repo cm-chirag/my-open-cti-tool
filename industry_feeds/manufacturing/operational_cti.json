@@ -1,0 +1,170 @@
+{
+    "branch": "Operational CTI",
+    "vertical_sector": "manufacturing",
+    "last_updated": "2026-06-05T15:10:21.279671Z",
+    "feed_count": 27,
+    "intel_records": [
+        {
+            "indicator_id": "CVE-2026-45247",
+            "vulnerable_asset": "Mirasvit Mirasvit Full Page Cache Warmer",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-06-06"
+        },
+        {
+            "indicator_id": "CVE-2026-48172",
+            "vulnerable_asset": "LiteSpeed cPanel Plugin",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-05-29"
+        },
+        {
+            "indicator_id": "CVE-2026-9082",
+            "vulnerable_asset": "Drupal Core",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-05-27"
+        },
+        {
+            "indicator_id": "CVE-2008-4250",
+            "vulnerable_asset": "Microsoft Windows",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-06-03"
+        },
+        {
+            "indicator_id": "CVE-2009-1537",
+            "vulnerable_asset": "Microsoft DirectX",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-06-03"
+        },
+        {
+            "indicator_id": "CVE-2009-3459",
+            "vulnerable_asset": "Adobe Acrobat and Reader",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-06-03"
+        },
+        {
+            "indicator_id": "CVE-2010-0249",
+            "vulnerable_asset": "Microsoft Internet Explorer",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-06-03"
+        },
+        {
+            "indicator_id": "CVE-2010-0806",
+            "vulnerable_asset": "Microsoft Internet Explorer",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-06-03"
+        },
+        {
+            "indicator_id": "CVE-2026-20182",
+            "vulnerable_asset": "Cisco Catalyst SD-WAN",
+            "mitigation_directive": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlined in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+            "remediation_timeline_deadline": "2026-05-17"
+        },
+        {
+            "indicator_id": "CVE-2026-42208",
+            "vulnerable_asset": "BerriAI LiteLLM",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-05-11"
+        },
+        {
+            "indicator_id": "CVE-2026-6973",
+            "vulnerable_asset": "Ivanti Endpoint Manager Mobile (EPMM)",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-05-10"
+        },
+        {
+            "indicator_id": "CVE-2026-0300",
+            "vulnerable_asset": "Palo Alto Networks PAN-OS",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required. 5/13/2026: Palo Alto has released a variety of patches. If these are relevant to your environment, please apply the designated patch.",
+            "remediation_timeline_deadline": "2026-05-09"
+        },
+        {
+            "indicator_id": "CVE-2026-41940",
+            "vulnerable_asset": "WebPros cPanel & WHM and WP2 (WordPress Squared)",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-05-03"
+        },
+        {
+            "indicator_id": "CVE-2024-1708",
+            "vulnerable_asset": "ConnectWise ScreenConnect",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-05-12"
+        },
+        {
+            "indicator_id": "CVE-2026-32202",
+            "vulnerable_asset": "Microsoft Windows",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-05-12"
+        },
+        {
+            "indicator_id": "CVE-2025-29635",
+            "vulnerable_asset": "D-Link DIR-823X",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-05-08"
+        },
+        {
+            "indicator_id": "CVE-2026-39987",
+            "vulnerable_asset": "Marimo Marimo",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-05-07"
+        },
+        {
+            "indicator_id": "CVE-2026-20133",
+            "vulnerable_asset": "Cisco Catalyst SD-WAN Manager",
+            "mitigation_directive": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+            "remediation_timeline_deadline": "2026-04-23"
+        },
+        {
+            "indicator_id": "CVE-2023-27351",
+            "vulnerable_asset": "PaperCut NG/MF",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-05-04"
+        },
+        {
+            "indicator_id": "CVE-2025-48700",
+            "vulnerable_asset": "Synacor Zimbra Collaboration Suite (ZCS)",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-04-23"
+        },
+        {
+            "indicator_id": "CVE-2009-0238",
+            "vulnerable_asset": "Microsoft Office",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-04-28"
+        },
+        {
+            "indicator_id": "CVE-2012-1854",
+            "vulnerable_asset": "Microsoft Visual Basic for Applications (VBA)",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-04-27"
+        },
+        {
+            "indicator_id": "CVE-2023-21529",
+            "vulnerable_asset": "Microsoft Exchange Server",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-04-27"
+        },
+        {
+            "indicator_id": "CVE-2026-34621",
+            "vulnerable_asset": "Adobe Acrobat and Reader",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-04-27"
+        },
+        {
+            "indicator_id": "CVE-2026-1340",
+            "vulnerable_asset": "Ivanti Endpoint Manager Mobile (EPMM)",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-04-11"
+        },
+        {
+            "indicator_id": "CVE-2026-5281",
+            "vulnerable_asset": "Google Dawn",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-04-15"
+        },
+        {
+            "indicator_id": "CVE-2025-53521",
+            "vulnerable_asset": "F5 BIG-IP",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-03-30"
+        }
+    ]
+}

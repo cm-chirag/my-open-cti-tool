@@ -1,0 +1,11 @@
+{
+    "branch": "Strategic CTI",
+    "vertical_sector": "finance",
+    "last_updated": "2026-06-05T15:10:21.279511Z",
+    "feed_count": 0,
+    "intel_records": [
+        {
+            "status": "Baseline protection active. No vertical anomalies isolated over past 24hr loop."
+        }
+    ]
+}

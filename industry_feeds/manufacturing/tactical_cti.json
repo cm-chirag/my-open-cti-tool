@@ -1,0 +1,143 @@
+{
+    "branch": "Tactical CTI",
+    "vertical_sector": "manufacturing",
+    "last_updated": "2026-06-05T15:10:21.279856Z",
+    "feed_count": 27,
+    "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Mirasvit Full Page Cache Warmer",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Mirasvit frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at cPanel Plugin",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking LiteSpeed frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Core",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Drupal frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Windows",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at DirectX",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Acrobat and Reader",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Adobe frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Internet Explorer",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Internet Explorer",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Catalyst SD-WAN",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at LiteLLM",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking BerriAI frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Endpoint Manager Mobile (EPMM)",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Ivanti frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at PAN-OS",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Palo Alto Networks frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at cPanel & WHM and WP2 (WordPress Squared)",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking WebPros frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at ScreenConnect",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking ConnectWise frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Windows",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at DIR-823X",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking D-Link frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Marimo",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Marimo frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Catalyst SD-WAN Manager",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at NG/MF",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking PaperCut frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Zimbra Collaboration Suite (ZCS)",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Synacor frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Office",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Visual Basic for Applications (VBA)",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Exchange Server",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Acrobat and Reader",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Adobe frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Endpoint Manager Mobile (EPMM)",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Ivanti frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Dawn",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Google frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at BIG-IP",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking F5 frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        }
+    ]
+}
