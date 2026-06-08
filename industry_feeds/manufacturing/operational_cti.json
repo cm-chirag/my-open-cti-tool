@@ -1,9 +1,15 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-06-07T23:44:41.093141Z",
+    "last_updated": "2026-06-08T22:12:20.543507Z",
     "feed_count": 27,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2026-50751",
+            "vulnerable_asset": "Check Point Security Gateway",
+            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+            "remediation_timeline_deadline": "2026-06-11"
+        },
         {
             "indicator_id": "CVE-2026-45247",
             "vulnerable_asset": "Mirasvit Mirasvit Full Page Cache Warmer",
@@ -159,12 +165,6 @@
             "vulnerable_asset": "Google Dawn",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
             "remediation_timeline_deadline": "2026-04-15"
-        },
-        {
-            "indicator_id": "CVE-2025-53521",
-            "vulnerable_asset": "F5 BIG-IP",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-03-30"
         }
     ]
 }
