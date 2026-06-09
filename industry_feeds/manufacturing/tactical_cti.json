@@ -1,9 +1,24 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-06-09T11:44:45.072017Z",
-    "feed_count": 27,
+    "last_updated": "2026-06-09T19:35:46.707790Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Chromium V8",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Google frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Extensible Operating System",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Arista frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Catalyst SD-WAN Manager",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Security Gateway",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Check Point frameworks.",
@@ -132,11 +147,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Endpoint Manager Mobile (EPMM)",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Ivanti frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Dawn",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Google frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
