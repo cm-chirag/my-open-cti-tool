@@ -1,8 +1,8 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-06-12T12:40:32.688657Z",
-    "feed_count": 30,
+    "last_updated": "2026-06-12T22:07:46.811696Z",
+    "feed_count": 29,
     "intel_records": [
         {
             "indicator_id": "CVE-2026-10520",
@@ -177,12 +177,6 @@
             "vulnerable_asset": "Adobe Acrobat and Reader",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
             "remediation_timeline_deadline": "2026-04-27"
-        },
-        {
-            "indicator_id": "CVE-2026-1340",
-            "vulnerable_asset": "Ivanti Endpoint Manager Mobile (EPMM)",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-04-11"
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "branch": "Strategic CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-06-12T12:40:32.689267Z",
-    "feed_count": 30,
+    "last_updated": "2026-06-12T22:07:46.812281Z",
+    "feed_count": 29,
     "intel_records": [
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Sentry.",
@@ -146,11 +146,6 @@
         },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Acrobat and Reader.",
-            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
-            "governance_priority": "Critical patch deployment cycle acceleration needed."
-        },
-        {
-            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Endpoint Manager Mobile (EPMM).",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
             "governance_priority": "Critical patch deployment cycle acceleration needed."
         }
