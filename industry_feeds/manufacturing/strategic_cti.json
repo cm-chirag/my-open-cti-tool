@@ -1,9 +1,14 @@
 {
     "branch": "Strategic CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-06-16T13:19:02.713001Z",
-    "feed_count": 29,
+    "last_updated": "2026-06-16T22:56:46.691569Z",
+    "feed_count": 30,
     "intel_records": [
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Joomla Content Editor .",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Catalyst SD-WAN Manager.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
