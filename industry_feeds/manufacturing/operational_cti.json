@@ -1,9 +1,15 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-06-23T11:44:31.357371Z",
-    "feed_count": 30,
+    "last_updated": "2026-06-23T19:27:37.891016Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2025-67038",
+            "vulnerable_asset": "Lantronix EDS5000",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-06-26"
+        },
         {
             "indicator_id": "CVE-2026-48907",
             "vulnerable_asset": "Widget Factory Joomla Content Editor ",
@@ -171,18 +177,6 @@
             "vulnerable_asset": "Microsoft Office",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
             "remediation_timeline_deadline": "2026-04-28"
-        },
-        {
-            "indicator_id": "CVE-2012-1854",
-            "vulnerable_asset": "Microsoft Visual Basic for Applications (VBA)",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-04-27"
-        },
-        {
-            "indicator_id": "CVE-2023-21529",
-            "vulnerable_asset": "Microsoft Exchange Server",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-04-27"
         }
     ]
 }

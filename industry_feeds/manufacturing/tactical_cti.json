@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-06-23T11:44:31.357685Z",
-    "feed_count": 30,
+    "last_updated": "2026-06-23T19:27:37.891336Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at EDS5000",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Lantronix frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Joomla Content Editor ",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Widget Factory frameworks.",
@@ -141,16 +146,6 @@
         },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Office",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Visual Basic for Applications (VBA)",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Exchange Server",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
