@@ -1,9 +1,19 @@
 {
     "branch": "Strategic CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-06-25T10:29:28.896923Z",
-    "feed_count": 29,
+    "last_updated": "2026-06-25T19:22:57.356476Z",
+    "feed_count": 30,
     "intel_records": [
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Windchill and FlexPLM.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Unified Communications Manager.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing EDS5000.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
@@ -141,11 +151,6 @@
         },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Zimbra Collaboration Suite (ZCS).",
-            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
-            "governance_priority": "Critical patch deployment cycle acceleration needed."
-        },
-        {
-            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Office.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
             "governance_priority": "Critical patch deployment cycle acceleration needed."
         }
