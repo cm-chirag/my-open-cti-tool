@@ -2,7 +2,7 @@
     "branch": "Technical CTI",
     "sector": "manufacturing",
     "description": "Machine-readable network reputation blocklist for active manufacturing firewall objects.",
-    "last_updated": "2026-06-25T19:22:57.267859Z",
+    "last_updated": "2026-06-26T08:36:41.792246Z",
     "indicators": [
         {
             "type": "ipv4-addr",
@@ -94,10 +94,6 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "106.13.107.71"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "106.54.61.191"
         },
         {
@@ -150,7 +146,7 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "116.110.12.22"
+            "value": "116.110.150.128"
         },
         {
             "type": "ipv4-addr",
@@ -158,11 +154,15 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "116.110.151.56"
+            "value": "116.110.154.109"
         },
         {
             "type": "ipv4-addr",
-            "value": "116.110.154.109"
+            "value": "116.110.15.47"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "116.110.156.195"
         },
         {
             "type": "ipv4-addr",
@@ -179,6 +179,10 @@
         {
             "type": "ipv4-addr",
             "value": "116.110.209.157"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "116.110.7.119"
         },
         {
             "type": "ipv4-addr",
@@ -199,10 +203,6 @@
         {
             "type": "ipv4-addr",
             "value": "116.99.168.155"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "116.99.168.7"
         }
     ]
 }
