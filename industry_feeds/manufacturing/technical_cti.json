@@ -2,7 +2,7 @@
     "branch": "Technical CTI",
     "sector": "manufacturing",
     "description": "Machine-readable network reputation blocklist for active manufacturing firewall objects.",
-    "last_updated": "2026-06-27T20:17:30.668520Z",
+    "last_updated": "2026-06-28T10:14:08.773178Z",
     "indicators": [
         {
             "type": "ipv4-addr",
