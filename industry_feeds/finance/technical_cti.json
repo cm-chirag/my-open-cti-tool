@@ -2,7 +2,7 @@
     "branch": "Technical CTI",
     "sector": "finance",
     "description": "Machine-readable network reputation blocklist for active finance firewall objects.",
-    "last_updated": "2026-07-06T18:14:14.158703Z",
+    "last_updated": "2026-07-06T21:39:53.477167Z",
     "indicators": [
         {
             "type": "ipv4-addr",
@@ -30,6 +30,10 @@
         },
         {
             "type": "ipv4-addr",
+            "value": "101.96.195.102"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "101.96.201.126"
         },
         {
@@ -38,19 +42,27 @@
         },
         {
             "type": "ipv4-addr",
+            "value": "102.220.160.39"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.121.91.144"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "103.143.239.193"
         },
         {
             "type": "ipv4-addr",
+            "value": "103.172.12.3"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.174.152.206"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "103.216.127.123"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "103.28.16.162"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "103.77.246.158"
         },
         {
             "type": "ipv4-addr",
@@ -62,11 +74,11 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "104.199.19.244"
+            "value": "104.155.47.16"
         },
         {
             "type": "ipv4-addr",
-            "value": "104.199.42.126"
+            "value": "104.199.19.244"
         },
         {
             "type": "ipv4-addr",
@@ -98,10 +110,6 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "107.189.24.77"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "109.100.14.222"
         },
         {
@@ -126,6 +134,10 @@
         },
         {
             "type": "ipv4-addr",
+            "value": "113.0.152.164"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "114.55.133.117"
         },
         {
@@ -146,6 +158,10 @@
         },
         {
             "type": "ipv4-addr",
+            "value": "116.110.149.111"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "116.110.149.136"
         },
         {
@@ -158,7 +174,11 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "116.110.154.109"
+            "value": "116.110.15.225"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "116.110.153.197"
         },
         {
             "type": "ipv4-addr",
@@ -183,26 +203,6 @@
         {
             "type": "ipv4-addr",
             "value": "116.110.1.90"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "116.110.211.250"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "116.110.7.119"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "116.177.172.108"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "116.177.172.111"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "116.177.172.64"
         }
     ]
 }
