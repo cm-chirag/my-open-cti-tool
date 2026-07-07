@@ -1,9 +1,19 @@
 {
     "branch": "Strategic CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-07T14:47:51.266062Z",
+    "last_updated": "2026-07-07T18:04:32.191638Z",
     "feed_count": 31,
     "intel_records": [
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Langflow.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Page Builder.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing SimpleHelp.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
@@ -146,16 +156,6 @@
         },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Catalyst SD-WAN Manager.",
-            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
-            "governance_priority": "Critical patch deployment cycle acceleration needed."
-        },
-        {
-            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing NG/MF.",
-            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
-            "governance_priority": "Critical patch deployment cycle acceleration needed."
-        },
-        {
-            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Zimbra Collaboration Suite (ZCS).",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
             "governance_priority": "Critical patch deployment cycle acceleration needed."
         }

@@ -1,9 +1,19 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-07T14:47:51.265791Z",
+    "last_updated": "2026-07-07T18:04:32.191382Z",
     "feed_count": 31,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Langflow",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Langflow frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Page Builder",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Joomlack frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at SimpleHelp",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking SimpleHelp  frameworks.",
@@ -147,16 +157,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Catalyst SD-WAN Manager",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at NG/MF",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking PaperCut frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Zimbra Collaboration Suite (ZCS)",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Synacor frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
