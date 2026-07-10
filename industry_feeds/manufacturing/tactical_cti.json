@@ -1,8 +1,8 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-10T17:50:15.914323Z",
-    "feed_count": 31,
+    "last_updated": "2026-07-10T21:09:54.112510Z",
+    "feed_count": 30,
     "intel_records": [
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Langflow",
@@ -152,11 +152,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Marimo",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Marimo frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Catalyst SD-WAN Manager",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]

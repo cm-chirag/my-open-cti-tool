@@ -1,8 +1,8 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-10T17:50:15.913990Z",
-    "feed_count": 31,
+    "last_updated": "2026-07-10T21:09:54.112190Z",
+    "feed_count": 30,
     "intel_records": [
         {
             "indicator_id": "CVE-2026-55255",
@@ -183,12 +183,6 @@
             "vulnerable_asset": "Marimo Marimo",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
             "remediation_timeline_deadline": "2026-05-07"
-        },
-        {
-            "indicator_id": "CVE-2026-20133",
-            "vulnerable_asset": "Cisco Catalyst SD-WAN Manager",
-            "mitigation_directive": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
-            "remediation_timeline_deadline": "2026-04-23"
         }
     ]
 }
