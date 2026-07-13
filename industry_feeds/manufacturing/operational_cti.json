@@ -1,9 +1,15 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-13T14:45:03.337684Z",
-    "feed_count": 30,
+    "last_updated": "2026-07-13T17:58:13.605595Z",
+    "feed_count": 31,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2008-4128",
+            "vulnerable_asset": "Cisco IOS",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-07-16"
+        },
         {
             "indicator_id": "CVE-2026-55255",
             "vulnerable_asset": "Langflow Langflow",
