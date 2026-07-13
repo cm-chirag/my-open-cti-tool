@@ -2,7 +2,7 @@
     "branch": "Technical CTI",
     "sector": "finance",
     "description": "Machine-readable network reputation blocklist for active finance firewall objects.",
-    "last_updated": "2026-07-13T17:58:13.359073Z",
+    "last_updated": "2026-07-13T21:01:21.485144Z",
     "indicators": [
         {
             "type": "ipv4-addr",
@@ -34,15 +34,15 @@
         },
         {
             "type": "ipv4-addr",
+            "value": "101.96.201.126"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "102.220.160.29"
         },
         {
             "type": "ipv4-addr",
             "value": "102.220.160.39"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "103.121.91.144"
         },
         {
             "type": "ipv4-addr",
@@ -62,11 +62,19 @@
         },
         {
             "type": "ipv4-addr",
+            "value": "103.252.127.146"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.5.210.47"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "104.155.104.83"
         },
         {
             "type": "ipv4-addr",
-            "value": "104.155.33.154"
+            "value": "104.155.107.253"
         },
         {
             "type": "ipv4-addr",
@@ -110,10 +118,6 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "111.30.42.43"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "112.124.37.132"
         },
         {
@@ -142,7 +146,7 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "115.190.44.190"
+            "value": "115.191.22.87"
         },
         {
             "type": "ipv4-addr",
@@ -198,11 +202,7 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "116.110.17.190"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "116.110.1.90"
+            "value": "116.110.208.247"
         }
     ]
 }
