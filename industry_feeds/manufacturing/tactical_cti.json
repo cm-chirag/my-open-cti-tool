@@ -1,9 +1,19 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-14T17:19:30.376356Z",
-    "feed_count": 31,
+    "last_updated": "2026-07-14T21:04:07.746844Z",
+    "feed_count": 32,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at SMA1000 Appliances",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking SonicWall frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at SMA1000 Appliances",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking SonicWall frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at IOS",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
@@ -152,11 +162,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at DIR-823X",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking D-Link frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Marimo",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Marimo frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
