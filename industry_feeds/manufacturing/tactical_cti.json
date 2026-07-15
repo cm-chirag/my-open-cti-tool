@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-15T13:52:18.853461Z",
-    "feed_count": 32,
+    "last_updated": "2026-07-15T17:21:29.336905Z",
+    "feed_count": 31,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at KNX Protocol Connection Authorization Option 1",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking KNX Association frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at SMA1000 Appliances",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking SonicWall frameworks.",
@@ -152,16 +157,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at ScreenConnect",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking ConnectWise frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Windows",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at DIR-823X",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking D-Link frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]

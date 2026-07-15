@@ -1,9 +1,15 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-15T13:52:18.853136Z",
-    "feed_count": 32,
+    "last_updated": "2026-07-15T17:21:29.336704Z",
+    "feed_count": 31,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2023-4346",
+            "vulnerable_asset": "KNX Association KNX Protocol Connection Authorization Option 1",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-07-29"
+        },
         {
             "indicator_id": "CVE-2026-15409",
             "vulnerable_asset": "SonicWall SMA1000 Appliances",
@@ -183,18 +189,6 @@
             "vulnerable_asset": "ConnectWise ScreenConnect",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
             "remediation_timeline_deadline": "2026-05-12"
-        },
-        {
-            "indicator_id": "CVE-2026-32202",
-            "vulnerable_asset": "Microsoft Windows",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-05-12"
-        },
-        {
-            "indicator_id": "CVE-2025-29635",
-            "vulnerable_asset": "D-Link DIR-823X",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-05-08"
         }
     ]
 }
