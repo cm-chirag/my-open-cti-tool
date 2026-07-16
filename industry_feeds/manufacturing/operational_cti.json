@@ -1,8 +1,8 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-16T17:23:32.196644Z",
-    "feed_count": 31,
+    "last_updated": "2026-07-16T21:06:40.948515Z",
+    "feed_count": 29,
     "intel_records": [
         {
             "indicator_id": "CVE-2023-4346",
@@ -177,18 +177,6 @@
             "vulnerable_asset": "Palo Alto Networks PAN-OS",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required. 5/13/2026: Palo Alto has released a variety of patches. If these are relevant to your environment, please apply the designated patch.",
             "remediation_timeline_deadline": "2026-05-09"
-        },
-        {
-            "indicator_id": "CVE-2026-41940",
-            "vulnerable_asset": "WebPros cPanel & WHM and WP2 (WordPress Squared)",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-05-03"
-        },
-        {
-            "indicator_id": "CVE-2024-1708",
-            "vulnerable_asset": "ConnectWise ScreenConnect",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-05-12"
         }
     ]
 }

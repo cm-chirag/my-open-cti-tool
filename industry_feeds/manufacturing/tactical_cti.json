@@ -1,8 +1,8 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-16T17:23:32.196970Z",
-    "feed_count": 31,
+    "last_updated": "2026-07-16T21:06:40.948813Z",
+    "feed_count": 29,
     "intel_records": [
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at KNX Protocol Connection Authorization Option 1",
@@ -147,16 +147,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at PAN-OS",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Palo Alto Networks frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at cPanel & WHM and WP2 (WordPress Squared)",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking WebPros frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at ScreenConnect",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking ConnectWise frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]

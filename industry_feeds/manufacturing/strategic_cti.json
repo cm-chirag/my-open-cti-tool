@@ -1,8 +1,8 @@
 {
     "branch": "Strategic CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-16T17:23:32.197239Z",
-    "feed_count": 31,
+    "last_updated": "2026-07-16T21:06:40.949053Z",
+    "feed_count": 29,
     "intel_records": [
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing KNX Protocol Connection Authorization Option 1.",
@@ -146,16 +146,6 @@
         },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing PAN-OS.",
-            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
-            "governance_priority": "Critical patch deployment cycle acceleration needed."
-        },
-        {
-            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing cPanel & WHM and WP2 (WordPress Squared).",
-            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
-            "governance_priority": "Critical patch deployment cycle acceleration needed."
-        },
-        {
-            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing ScreenConnect.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
             "governance_priority": "Critical patch deployment cycle acceleration needed."
         }
