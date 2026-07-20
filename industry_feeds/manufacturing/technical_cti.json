@@ -2,15 +2,15 @@
     "branch": "Technical CTI",
     "sector": "manufacturing",
     "description": "Machine-readable network reputation blocklist for active manufacturing firewall objects.",
-    "last_updated": "2026-07-20T18:08:31.372115Z",
+    "last_updated": "2026-07-20T21:15:20.606469Z",
     "indicators": [
         {
             "type": "ipv4-addr",
-            "value": "100.23.75.120"
+            "value": "100.23.213.128"
         },
         {
             "type": "ipv4-addr",
-            "value": "101.201.226.38"
+            "value": "101.50.83.146"
         },
         {
             "type": "ipv4-addr",
@@ -23,6 +23,10 @@
         {
             "type": "ipv4-addr",
             "value": "101.96.201.126"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "102.220.160.26"
         },
         {
             "type": "ipv4-addr",
@@ -46,11 +50,19 @@
         },
         {
             "type": "ipv4-addr",
+            "value": "103.167.88.166"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "103.172.12.3"
         },
         {
             "type": "ipv4-addr",
             "value": "103.174.152.206"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.182.235.156"
         },
         {
             "type": "ipv4-addr",
@@ -94,10 +106,6 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "104.199.55.128"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "104.199.71.189"
         },
         {
@@ -130,10 +138,6 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "115.190.4.231"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "115.191.22.87"
         },
         {
@@ -142,11 +146,11 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "116.110.11.196"
+            "value": "116.110.1.127"
         },
         {
             "type": "ipv4-addr",
-            "value": "116.110.1.127"
+            "value": "116.110.145.128"
         },
         {
             "type": "ipv4-addr",
@@ -199,10 +203,6 @@
         {
             "type": "ipv4-addr",
             "value": "116.110.208.56"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "116.110.209.240"
         }
     ]
 }
