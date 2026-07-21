@@ -1,9 +1,27 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-21T14:03:53.605507Z",
-    "feed_count": 29,
+    "last_updated": "2026-07-21T17:25:38.807041Z",
+    "feed_count": 28,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2026-60137",
+            "vulnerable_asset": "WordPress Core",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-08-04"
+        },
+        {
+            "indicator_id": "CVE-2026-63030",
+            "vulnerable_asset": "WordPress Core",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-07-24"
+        },
+        {
+            "indicator_id": "CVE-2026-0770",
+            "vulnerable_asset": "Langflow Langflow",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-07-24"
+        },
         {
             "indicator_id": "CVE-2023-4346",
             "vulnerable_asset": "KNX Association KNX Protocol Connection Authorization Option 1",
@@ -153,30 +171,6 @@
             "vulnerable_asset": "Microsoft Internet Explorer",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
             "remediation_timeline_deadline": "2026-06-03"
-        },
-        {
-            "indicator_id": "CVE-2026-20182",
-            "vulnerable_asset": "Cisco Catalyst SD-WAN",
-            "mitigation_directive": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlined in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
-            "remediation_timeline_deadline": "2026-05-17"
-        },
-        {
-            "indicator_id": "CVE-2026-42208",
-            "vulnerable_asset": "BerriAI LiteLLM",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-05-11"
-        },
-        {
-            "indicator_id": "CVE-2026-6973",
-            "vulnerable_asset": "Ivanti Endpoint Manager Mobile (EPMM)",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-05-10"
-        },
-        {
-            "indicator_id": "CVE-2026-0300",
-            "vulnerable_asset": "Palo Alto Networks PAN-OS",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required. 5/13/2026: Palo Alto has released a variety of patches. If these are relevant to your environment, please apply the designated patch.",
-            "remediation_timeline_deadline": "2026-05-09"
         }
     ]
 }
