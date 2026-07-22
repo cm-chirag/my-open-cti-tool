@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-22T17:24:33.673635Z",
-    "feed_count": 28,
+    "last_updated": "2026-07-22T21:13:57.146322Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at SmartConsole",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Check Point frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Core",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking WordPress frameworks.",

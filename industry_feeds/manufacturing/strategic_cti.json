@@ -1,9 +1,14 @@
 {
     "branch": "Strategic CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-22T17:24:33.673924Z",
-    "feed_count": 28,
+    "last_updated": "2026-07-22T21:13:57.146481Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing SmartConsole.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Core.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",

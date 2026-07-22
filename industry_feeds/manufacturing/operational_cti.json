@@ -1,9 +1,15 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-22T17:24:33.673345Z",
-    "feed_count": 28,
+    "last_updated": "2026-07-22T21:13:57.146142Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2026-16232",
+            "vulnerable_asset": "Check Point SmartConsole",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-07-25"
+        },
         {
             "indicator_id": "CVE-2026-60137",
             "vulnerable_asset": "WordPress Core",
