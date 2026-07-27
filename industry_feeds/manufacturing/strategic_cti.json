@@ -1,9 +1,14 @@
 {
     "branch": "Strategic CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-27T14:46:16.395288Z",
-    "feed_count": 29,
+    "last_updated": "2026-07-27T17:46:16.442553Z",
+    "feed_count": 30,
     "intel_records": [
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing FortiOS.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing SmartConsole.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
