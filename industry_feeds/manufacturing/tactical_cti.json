@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-29T17:19:33.245815Z",
+    "last_updated": "2026-07-29T21:01:04.766334Z",
     "feed_count": 30,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Secure Firewall Management Center (FMC)",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at FortiOS",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Fortinet frameworks.",
@@ -147,11 +152,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Acrobat and Reader",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Adobe frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Internet Explorer",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]

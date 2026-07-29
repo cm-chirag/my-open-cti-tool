@@ -1,9 +1,15 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-07-29T17:19:33.245583Z",
+    "last_updated": "2026-07-29T21:01:04.766004Z",
     "feed_count": 30,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2026-20316",
+            "vulnerable_asset": "Cisco Secure Firewall Management Center (FMC)",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-08-01"
+        },
         {
             "indicator_id": "CVE-2025-68686",
             "vulnerable_asset": "Fortinet FortiOS",
@@ -175,12 +181,6 @@
         {
             "indicator_id": "CVE-2009-3459",
             "vulnerable_asset": "Adobe Acrobat and Reader",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-06-03"
-        },
-        {
-            "indicator_id": "CVE-2010-0249",
-            "vulnerable_asset": "Microsoft Internet Explorer",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
             "remediation_timeline_deadline": "2026-06-03"
         }
