@@ -1,8 +1,8 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-03T17:55:41.167564Z",
-    "feed_count": 30,
+    "last_updated": "2026-08-03T21:09:00.992374Z",
+    "feed_count": 29,
     "intel_records": [
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Secure Firewall Management Center (FMC)",
@@ -147,11 +147,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at DirectX",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Acrobat and Reader",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Adobe frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]

@@ -1,8 +1,8 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-03T17:55:41.167272Z",
-    "feed_count": 30,
+    "last_updated": "2026-08-03T21:09:00.992047Z",
+    "feed_count": 29,
     "intel_records": [
         {
             "indicator_id": "CVE-2026-20316",
@@ -175,12 +175,6 @@
         {
             "indicator_id": "CVE-2009-1537",
             "vulnerable_asset": "Microsoft DirectX",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-06-03"
-        },
-        {
-            "indicator_id": "CVE-2009-3459",
-            "vulnerable_asset": "Adobe Acrobat and Reader",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
             "remediation_timeline_deadline": "2026-06-03"
         }
