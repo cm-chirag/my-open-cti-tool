@@ -1,9 +1,15 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-05T14:19:31.318559Z",
-    "feed_count": 28,
+    "last_updated": "2026-08-05T17:44:37.259464Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2026-63077",
+            "vulnerable_asset": "JetBrains TeamCity",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-08-08"
+        },
         {
             "indicator_id": "CVE-2026-9198",
             "vulnerable_asset": "IBM Langflow",
