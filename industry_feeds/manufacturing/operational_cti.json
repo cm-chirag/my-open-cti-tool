@@ -1,8 +1,8 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-07T16:57:18.478355Z",
-    "feed_count": 29,
+    "last_updated": "2026-08-07T20:46:41.351023Z",
+    "feed_count": 28,
     "intel_records": [
         {
             "indicator_id": "CVE-2026-63077",
@@ -171,12 +171,6 @@
             "vulnerable_asset": "LiteSpeed cPanel Plugin",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
             "remediation_timeline_deadline": "2026-05-29"
-        },
-        {
-            "indicator_id": "CVE-2026-9082",
-            "vulnerable_asset": "Drupal Core",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-05-27"
         }
     ]
 }
