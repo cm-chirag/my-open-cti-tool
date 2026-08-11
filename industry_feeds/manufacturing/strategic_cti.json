@@ -1,9 +1,19 @@
 {
     "branch": "Strategic CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-11T17:01:12.404093Z",
-    "feed_count": 28,
+    "last_updated": "2026-08-11T20:51:53.518957Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) .",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Metabase.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing TeamCity.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
@@ -136,11 +146,6 @@
         },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Mirasvit Full Page Cache Warmer.",
-            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
-            "governance_priority": "Critical patch deployment cycle acceleration needed."
-        },
-        {
-            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing cPanel Plugin.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
             "governance_priority": "Critical patch deployment cycle acceleration needed."
         }

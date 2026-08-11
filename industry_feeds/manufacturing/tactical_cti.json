@@ -1,9 +1,19 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-11T17:01:12.403907Z",
-    "feed_count": 28,
+    "last_updated": "2026-08-11T20:51:53.518727Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Metabase",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Metabase frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at TeamCity",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking JetBrains frameworks.",
@@ -137,11 +147,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Mirasvit Full Page Cache Warmer",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Mirasvit frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at cPanel Plugin",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking LiteSpeed frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
