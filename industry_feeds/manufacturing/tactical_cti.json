@@ -1,8 +1,8 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-19T16:35:50.839635Z",
-    "feed_count": 31,
+    "last_updated": "2026-08-19T20:32:58.404870Z",
+    "feed_count": 30,
     "intel_records": [
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Internet Key Exchange (IKE) Service Extensions",
@@ -152,11 +152,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Security Gateway",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Check Point frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Mirasvit Full Page Cache Warmer",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Mirasvit frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
