@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-08-21T20:14:51.210376Z",
+    "last_updated": "2026-08-21T22:13:47.006569Z",
     "malicious_ips": [
         {
             "ip_address": "101.100.216.61",
@@ -27,7 +27,7 @@
             "confidence": "High"
         },
         {
-            "ip_address": "103.160.5.123",
+            "ip_address": "103.159.85.90",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
@@ -102,6 +102,11 @@
             "confidence": "High"
         },
         {
+            "ip_address": "104.199.67.140",
+            "threat_type": "Compromised Host / Botnet",
+            "confidence": "High"
+        },
+        {
             "ip_address": "104.199.87.236",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
@@ -158,11 +163,6 @@
         },
         {
             "ip_address": "113.20.8.90",
-            "threat_type": "Compromised Host / Botnet",
-            "confidence": "High"
-        },
-        {
-            "ip_address": "115.190.165.165",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
