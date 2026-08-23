@@ -2,7 +2,7 @@
     "branch": "Technical CTI",
     "sector": "manufacturing",
     "description": "Machine-readable network reputation blocklist for active manufacturing firewall objects.",
-    "last_updated": "2026-08-22T20:27:18.724561Z",
+    "last_updated": "2026-08-23T01:41:28.551985Z",
     "indicators": [
         {
             "type": "ipv4-addr",
@@ -30,10 +30,6 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "103.167.88.166"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "103.19.196.230"
         },
         {
@@ -47,6 +43,10 @@
         {
             "type": "ipv4-addr",
             "value": "103.40.11.179"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.78.2.252"
         },
         {
             "type": "ipv4-addr",
@@ -102,10 +102,6 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "106.75.63.139"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "108.165.164.23"
         },
         {
@@ -126,15 +122,15 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "112.167.99.220"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "112.203.69.89"
         },
         {
             "type": "ipv4-addr",
             "value": "113.20.8.90"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "115.190.126.161"
         },
         {
             "type": "ipv4-addr",
@@ -182,10 +178,6 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "116.110.214.67"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "116.110.21.50"
         },
         {
@@ -203,6 +195,14 @@
         {
             "type": "ipv4-addr",
             "value": "116.110.23.104"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "116.110.5.4"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "116.110.8.176"
         }
     ]
 }
