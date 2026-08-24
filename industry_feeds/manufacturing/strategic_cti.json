@@ -1,8 +1,8 @@
 {
     "branch": "Strategic CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-24T16:42:37.553822Z",
-    "feed_count": 31,
+    "last_updated": "2026-08-24T20:34:57.359166Z",
+    "feed_count": 30,
     "intel_records": [
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Server.",
@@ -151,11 +151,6 @@
         },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Extensible Operating System.",
-            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
-            "governance_priority": "Critical patch deployment cycle acceleration needed."
-        },
-        {
-            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Catalyst SD-WAN Manager.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
             "governance_priority": "Critical patch deployment cycle acceleration needed."
         }

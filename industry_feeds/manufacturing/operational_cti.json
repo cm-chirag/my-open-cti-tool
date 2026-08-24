@@ -1,8 +1,8 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-24T16:42:37.553232Z",
-    "feed_count": 31,
+    "last_updated": "2026-08-24T20:34:57.358528Z",
+    "feed_count": 30,
     "intel_records": [
         {
             "indicator_id": "CVE-2026-72530",
@@ -181,12 +181,6 @@
         {
             "indicator_id": "CVE-2026-7473",
             "vulnerable_asset": "Arista Extensible Operating System",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-06-23"
-        },
-        {
-            "indicator_id": "CVE-2026-20245",
-            "vulnerable_asset": "Cisco Catalyst SD-WAN Manager",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
             "remediation_timeline_deadline": "2026-06-23"
         }
