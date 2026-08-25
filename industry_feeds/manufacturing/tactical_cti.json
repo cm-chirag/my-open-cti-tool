@@ -1,8 +1,8 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-25T16:41:40.108232Z",
-    "feed_count": 30,
+    "last_updated": "2026-08-25T20:33:37.655996Z",
+    "feed_count": 29,
     "intel_records": [
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Server",
@@ -147,11 +147,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Chromium V8",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Google frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Extensible Operating System",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Arista frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]

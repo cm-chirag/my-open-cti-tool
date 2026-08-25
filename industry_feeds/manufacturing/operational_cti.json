@@ -1,8 +1,8 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-25T16:41:40.107995Z",
-    "feed_count": 30,
+    "last_updated": "2026-08-25T20:33:37.655645Z",
+    "feed_count": 29,
     "intel_records": [
         {
             "indicator_id": "CVE-2026-72530",
@@ -175,12 +175,6 @@
         {
             "indicator_id": "CVE-2026-11645",
             "vulnerable_asset": "Google Chromium V8",
-            "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-            "remediation_timeline_deadline": "2026-06-23"
-        },
-        {
-            "indicator_id": "CVE-2026-7473",
-            "vulnerable_asset": "Arista Extensible Operating System",
             "mitigation_directive": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
             "remediation_timeline_deadline": "2026-06-23"
         }
