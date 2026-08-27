@@ -1,9 +1,19 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-27T08:30:38.438499Z",
-    "feed_count": 27,
+    "last_updated": "2026-08-27T22:03:07.084532Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Kernel",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Linux frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Artifactory",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking JFrog frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Ajax.NET Professional",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Ajax.NET Professional frameworks.",

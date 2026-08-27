@@ -1,9 +1,21 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-08-27T08:30:38.438186Z",
-    "feed_count": 27,
+    "last_updated": "2026-08-27T22:03:07.084228Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2026-53362",
+            "vulnerable_asset": "Linux Kernel",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-08-30"
+        },
+        {
+            "indicator_id": "CVE-2026-66384",
+            "vulnerable_asset": "JFrog Artifactory",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-09-10"
+        },
         {
             "indicator_id": "CVE-2021-23758",
             "vulnerable_asset": "Ajax.NET Professional Ajax.NET Professional",
