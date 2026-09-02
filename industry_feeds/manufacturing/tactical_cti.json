@@ -1,9 +1,34 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-09-02T16:18:22.881063Z",
+    "last_updated": "2026-09-02T22:28:36.011275Z",
     "feed_count": 29,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Kestra OSS",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Kestra frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Artifactory",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking JFrog frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Switchvox",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Sangoma frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at SMA1000 Appliances",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking SonicWall frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at SMA1000 Appliances",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking SonicWall frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at NG/MF",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking PaperCut frameworks.",
@@ -121,31 +146,6 @@
         },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at IOS",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Langflow",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Langflow frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Page Builder",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Joomlack frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at SimpleHelp",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking SimpleHelp  frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Windchill and FlexPLM",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking PTC frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Unified Communications Manager",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }

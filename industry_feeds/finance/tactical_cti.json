@@ -1,17 +1,12 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "finance",
-    "last_updated": "2026-09-02T16:18:22.880205Z",
-    "feed_count": 2,
+    "last_updated": "2026-09-02T22:28:36.010467Z",
+    "feed_count": 1,
     "intel_records": [
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at E-Business Suite",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Oracle frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at SimpleHelp",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking SimpleHelp  frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
