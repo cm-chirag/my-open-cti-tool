@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-09-04T16:03:43.273231Z",
-    "feed_count": 29,
+    "last_updated": "2026-09-04T22:14:46.337240Z",
+    "feed_count": 30,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Chromium V8",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Google frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Kestra OSS",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Kestra frameworks.",

@@ -2,7 +2,7 @@
     "branch": "Technical CTI",
     "sector": "finance",
     "description": "Machine-readable network reputation blocklist for active finance firewall objects.",
-    "last_updated": "2026-09-04T16:03:43.126435Z",
+    "last_updated": "2026-09-04T22:14:46.080544Z",
     "indicators": [
         {
             "type": "ipv4-addr",
@@ -30,7 +30,7 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "103.19.196.230"
+            "value": "103.183.5.58"
         },
         {
             "type": "ipv4-addr",
@@ -43,6 +43,10 @@
         {
             "type": "ipv4-addr",
             "value": "103.216.169.25"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.229.125.91"
         },
         {
             "type": "ipv4-addr",
@@ -110,19 +114,11 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "106.12.168.187"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "106.13.107.71"
         },
         {
             "type": "ipv4-addr",
             "value": "107.150.97.10"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "108.165.164.23"
         },
         {
             "type": "ipv4-addr",
@@ -166,15 +162,7 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "115.21.125.227"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "116.110.155.241"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "116.110.156.139"
         },
         {
             "type": "ipv4-addr",
@@ -198,11 +186,23 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "116.110.209.234"
+            "value": "116.110.214.220"
         },
         {
             "type": "ipv4-addr",
-            "value": "116.110.214.220"
+            "value": "116.110.221.40"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "116.110.22.34"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "116.110.3.154"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "116.110.6.69"
         }
     ]
 }
