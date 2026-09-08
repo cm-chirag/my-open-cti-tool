@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-09-08T16:21:29.559439Z",
-    "feed_count": 30,
+    "last_updated": "2026-09-08T22:28:44.916792Z",
+    "feed_count": 29,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at N-central",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking N-able frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Chromium V8",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Google frameworks.",
@@ -142,16 +147,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at SMA1000 Appliances",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking SonicWall frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at SMA1000 Appliances",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking SonicWall frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at IOS",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
