@@ -1,13 +1,11 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "finance",
-    "last_updated": "2026-09-10T16:08:15.219665Z",
-    "feed_count": 1,
+    "last_updated": "2026-09-10T22:22:00.877438Z",
+    "feed_count": 0,
     "intel_records": [
         {
-            "threat_actor_activity": "In-the-wild exploitation targeted at E-Business Suite",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Oracle frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+            "status": "Baseline protection active. No vertical anomalies isolated over past 24hr loop."
         }
     ]
 }

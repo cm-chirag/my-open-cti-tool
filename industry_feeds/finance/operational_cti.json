@@ -1,14 +1,11 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "finance",
-    "last_updated": "2026-09-10T16:08:15.219446Z",
-    "feed_count": 1,
+    "last_updated": "2026-09-10T22:22:00.877092Z",
+    "feed_count": 0,
     "intel_records": [
         {
-            "indicator_id": "CVE-2026-46817",
-            "vulnerable_asset": "Oracle E-Business Suite",
-            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-            "remediation_timeline_deadline": "2026-07-18"
+            "status": "Baseline protection active. No vertical anomalies isolated over past 24hr loop."
         }
     ]
 }

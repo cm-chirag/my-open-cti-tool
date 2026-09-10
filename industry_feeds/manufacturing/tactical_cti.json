@@ -1,9 +1,19 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-09-10T16:08:15.220607Z",
-    "feed_count": 30,
+    "last_updated": "2026-09-10T22:22:00.878448Z",
+    "feed_count": 32,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at RouterOS",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking MikroTik frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at RouterOS",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking MikroTik frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at NetScaler",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Citrix frameworks.",
