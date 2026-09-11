@@ -2,15 +2,11 @@
     "branch": "Technical CTI",
     "sector": "manufacturing",
     "description": "Machine-readable network reputation blocklist for active manufacturing firewall objects.",
-    "last_updated": "2026-09-11T16:11:38.129392Z",
+    "last_updated": "2026-09-11T22:21:46.661590Z",
     "indicators": [
         {
             "type": "ipv4-addr",
             "value": "101.47.134.74"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "101.47.152.216"
         },
         {
             "type": "ipv4-addr",
@@ -62,6 +58,10 @@
         },
         {
             "type": "ipv4-addr",
+            "value": "102.220.160.67"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "102.220.161.29"
         },
         {
@@ -71,6 +71,10 @@
         {
             "type": "ipv4-addr",
             "value": "103.118.29.32"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.144.82.250"
         },
         {
             "type": "ipv4-addr",
@@ -86,7 +90,15 @@
         },
         {
             "type": "ipv4-addr",
+            "value": "103.188.237.243"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "103.205.107.170"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.207.1.13"
         },
         {
             "type": "ipv4-addr",
@@ -182,27 +194,15 @@
         },
         {
             "type": "ipv4-addr",
+            "value": "107.189.17.7"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "108.175.5.23"
         },
         {
             "type": "ipv4-addr",
             "value": "109.228.48.105"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "109.241.134.137"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "110.173.190.221"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "112.17.140.107"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "113.199.65.48"
         }
     ]
 }
