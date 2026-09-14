@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-09-14T14:52:53.233541Z",
+    "last_updated": "2026-09-14T20:12:59.308117Z",
     "feed_count": 34,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Secure Email Gateway",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at ScreenConnect",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking ConnectWise frameworks.",
@@ -162,11 +167,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at SmartConsole",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Check Point frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Core",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking WordPress frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         },
         {
