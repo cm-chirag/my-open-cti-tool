@@ -2,7 +2,7 @@
     "branch": "Technical CTI",
     "sector": "healthcare",
     "description": "Machine-readable network reputation blocklist for active healthcare firewall objects.",
-    "last_updated": "2026-09-16T19:27:11.998727Z",
+    "last_updated": "2026-09-16T22:47:31.191878Z",
     "indicators": [
         {
             "type": "ipv4-addr",
@@ -122,11 +122,19 @@
         },
         {
             "type": "ipv4-addr",
+            "value": "103.214.100.4"
+        },
+        {
+            "type": "ipv4-addr",
             "value": "103.216.169.25"
         },
         {
             "type": "ipv4-addr",
             "value": "103.229.125.91"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.232.25.114"
         },
         {
             "type": "ipv4-addr",
@@ -194,15 +202,7 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "104.248.124.72"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "104.248.235.1"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "106.13.120.65"
         }
     ]
 }
