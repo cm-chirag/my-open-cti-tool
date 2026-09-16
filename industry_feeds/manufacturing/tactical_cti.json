@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-09-16T13:17:42.352185Z",
-    "feed_count": 34,
+    "last_updated": "2026-09-16T19:27:12.114466Z",
+    "feed_count": 33,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Identity Services Engine",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Secure Email Gateway",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
@@ -162,16 +167,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at VeloCloud Orchestrator",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Arista frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at SmartConsole",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Check Point frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Core",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking WordPress frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
