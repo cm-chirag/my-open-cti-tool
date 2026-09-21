@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-09-21T14:58:07.843965Z",
-    "feed_count": 31,
+    "last_updated": "2026-09-21T20:19:30.577076Z",
+    "feed_count": 32,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at GS1900 Series Switches",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Zyxel frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Kernel",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Linux frameworks.",
