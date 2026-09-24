@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-09-24T13:25:03.910412Z",
+    "last_updated": "2026-09-24T19:53:30.206440Z",
     "feed_count": 33,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Multiple Products",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking WSO2 frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at VeloCloud Orchestrator",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Arista frameworks.",
@@ -162,11 +167,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Metabase",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Metabase frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
