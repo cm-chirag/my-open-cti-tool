@@ -1,9 +1,21 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-09-25T13:27:40.311242Z",
+    "last_updated": "2026-09-25T19:55:28.451031Z",
     "feed_count": 33,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2026-67279",
+            "vulnerable_asset": "MikroTik RouterOS",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-09-28"
+        },
+        {
+            "indicator_id": "CVE-2026-87902",
+            "vulnerable_asset": "WordPress Core",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-09-28"
+        },
         {
             "indicator_id": "CVE-2026-5430",
             "vulnerable_asset": "WSO2 Multiple Products",
@@ -189,18 +201,6 @@
             "vulnerable_asset": "Microsoft Internet Key Exchange (IKE) Service Extensions",
             "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
             "remediation_timeline_deadline": "2026-08-21"
-        },
-        {
-            "indicator_id": "CVE-2025-62593",
-            "vulnerable_asset": "Ray-Project Ray",
-            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-            "remediation_timeline_deadline": "2026-08-20"
-        },
-        {
-            "indicator_id": "CVE-2026-20349",
-            "vulnerable_asset": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ",
-            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-            "remediation_timeline_deadline": "2026-08-14"
         }
     ]
 }
