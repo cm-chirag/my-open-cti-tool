@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-09-30T14:46:22.614189Z",
+    "last_updated": "2026-09-30T20:40:01.270496Z",
     "feed_count": 35,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Catalyst SD-WAN Manager",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Multiple Products",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Apple frameworks.",
@@ -172,11 +177,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Server",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking TrueConf frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Internet Key Exchange (IKE) Service Extensions",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Microsoft frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
