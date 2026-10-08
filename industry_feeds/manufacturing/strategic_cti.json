@@ -1,9 +1,34 @@
 {
     "branch": "Strategic CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-10-08T15:24:46.074668Z",
-    "feed_count": 35,
+    "last_updated": "2026-10-08T21:10:50.231497Z",
+    "feed_count": 39,
     "intel_records": [
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing BIND.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Struts.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Strapi.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Docs.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing ProFTPD.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Zammad.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
@@ -171,11 +196,6 @@
         },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Ajax.NET Professional.",
-            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
-            "governance_priority": "Critical patch deployment cycle acceleration needed."
-        },
-        {
-            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing SQL Server.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
             "governance_priority": "Critical patch deployment cycle acceleration needed."
         }
