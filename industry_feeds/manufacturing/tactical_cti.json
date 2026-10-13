@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-10-13T11:34:02.290297Z",
-    "feed_count": 39,
+    "last_updated": "2026-10-13T19:05:18.764937Z",
+    "feed_count": 40,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Connect Secure",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Ivanti frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at BIND",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking ISC frameworks.",

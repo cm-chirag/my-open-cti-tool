@@ -1,9 +1,15 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-10-13T11:34:02.289972Z",
-    "feed_count": 39,
+    "last_updated": "2026-10-13T19:05:18.764531Z",
+    "feed_count": 40,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2026-104935",
+            "vulnerable_asset": "Ivanti Connect Secure",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-10-16"
+        },
         {
             "indicator_id": "CVE-2015-5477",
             "vulnerable_asset": "ISC BIND",
