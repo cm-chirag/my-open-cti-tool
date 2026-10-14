@@ -1,9 +1,29 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-10-14T13:28:05.248458Z",
-    "feed_count": 40,
+    "last_updated": "2026-10-14T20:04:05.874017Z",
+    "feed_count": 41,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at AhsayCBS",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Ahsay frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Secure Email Gateway",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at AhsayCBS",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Ahsay frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at PAN-OS",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Palo Alto Networks frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Connect Secure",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Ivanti frameworks.",
@@ -187,21 +207,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at NG/MF",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking PaperCut frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Kernel",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Linux frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Artifactory",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking JFrog frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Ajax.NET Professional",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Ajax.NET Professional frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
