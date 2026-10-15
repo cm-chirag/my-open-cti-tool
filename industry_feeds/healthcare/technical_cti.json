@@ -2,7 +2,7 @@
     "branch": "Technical CTI",
     "sector": "healthcare",
     "description": "Machine-readable network reputation blocklist for active healthcare firewall objects.",
-    "last_updated": "2026-10-15T16:39:52.903883Z",
+    "last_updated": "2026-10-15T22:57:41.059159Z",
     "indicators": [
         {
             "type": "ipv4-addr",
@@ -31,6 +31,10 @@
         {
             "type": "ipv4-addr",
             "value": "102.220.160.110"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "102.220.160.115"
         },
         {
             "type": "ipv4-addr",
@@ -86,10 +90,6 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "103.10.120.8"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "103.105.74.30"
         },
         {
@@ -110,10 +110,6 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "103.139.236.70"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "103.140.54.101"
         },
         {
@@ -123,14 +119,6 @@
         {
             "type": "ipv4-addr",
             "value": "103.148.79.138"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "103.153.154.10"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "103.153.65.59"
         },
         {
             "type": "ipv4-addr",
@@ -154,15 +142,7 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "103.162.1.80"
-        },
-        {
-            "type": "ipv4-addr",
             "value": "103.170.215.118"
-        },
-        {
-            "type": "ipv4-addr",
-            "value": "103.189.5.190"
         },
         {
             "type": "ipv4-addr",
@@ -198,11 +178,31 @@
         },
         {
             "type": "ipv4-addr",
-            "value": "103.79.90.26"
+            "value": "103.83.86.39"
         },
         {
             "type": "ipv4-addr",
-            "value": "103.83.86.39"
+            "value": "103.83.87.15"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.83.87.185"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.83.87.34"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.83.87.37"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.87.16.26"
+        },
+        {
+            "type": "ipv4-addr",
+            "value": "103.90.25.52"
         }
     ]
 }
