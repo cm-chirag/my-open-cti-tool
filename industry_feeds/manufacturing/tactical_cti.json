@@ -1,9 +1,29 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-10-20T13:26:37.405130Z",
+    "last_updated": "2026-10-20T19:55:24.609743Z",
     "feed_count": 41,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at SiteGuard Server Edition",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking EG Secure Solutions frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Media Server",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Plex frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Media Server",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Plex frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Software Center",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Siemens frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Remote Support",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking BeyondTrust frameworks.",
@@ -187,26 +207,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Chromium V8",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Google frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Kestra OSS",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Kestra frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Artifactory",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking JFrog frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Switchvox",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Sangoma frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at SMA1000 Appliances",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking SonicWall frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
