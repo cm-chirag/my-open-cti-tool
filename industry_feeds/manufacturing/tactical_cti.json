@@ -1,9 +1,19 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-10-23T13:13:49.240393Z",
-    "feed_count": 41,
+    "last_updated": "2026-10-23T19:51:55.396812Z",
+    "feed_count": 42,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at VeloCloud Orchestrator",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Arista frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Collabora Online \u2013 Built-in CODE Server",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Collabora frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at SiteGuard Server Edition",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking EG Secure Solutions frameworks.",
@@ -202,11 +212,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at N-central",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking N-able frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Chromium V8",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Google frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
