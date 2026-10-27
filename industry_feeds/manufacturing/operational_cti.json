@@ -1,9 +1,21 @@
 {
     "branch": "Operational CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-10-26T20:56:26.769709Z",
-    "feed_count": 42,
+    "last_updated": "2026-10-27T04:25:45.400981Z",
+    "feed_count": 43,
     "intel_records": [
+        {
+            "indicator_id": "CVE-2026-109618",
+            "vulnerable_asset": "PHP Group PHP",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-10-29"
+        },
+        {
+            "indicator_id": "CVE-2026-109619",
+            "vulnerable_asset": "PHP Group PHP",
+            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+            "remediation_timeline_deadline": "2026-10-29"
+        },
         {
             "indicator_id": "CVE-2026-114625",
             "vulnerable_asset": "Arista VeloCloud Orchestrator",
@@ -249,12 +261,6 @@
             "vulnerable_asset": "Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
             "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
             "remediation_timeline_deadline": "2026-09-12"
-        },
-        {
-            "indicator_id": "CVE-2026-86218",
-            "vulnerable_asset": "N-able N-central",
-            "mitigation_directive": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-            "remediation_timeline_deadline": "2026-09-11"
         }
     ]
 }
