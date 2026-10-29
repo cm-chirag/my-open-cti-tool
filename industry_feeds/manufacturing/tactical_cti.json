@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-10-29T15:03:38.263737Z",
-    "feed_count": 44,
+    "last_updated": "2026-10-29T20:57:10.813930Z",
+    "feed_count": 43,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Secure Firewall ASA Software and Cisco Secure FTD Software",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Kernel",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Linux frameworks.",
@@ -212,16 +217,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at RouterOS",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking MikroTik frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at RouterOS",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking MikroTik frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at NetScaler",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Citrix frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
