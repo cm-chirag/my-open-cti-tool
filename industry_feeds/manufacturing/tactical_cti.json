@@ -1,8 +1,8 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-11-09T05:34:58.447572Z",
-    "feed_count": 40,
+    "last_updated": "2026-11-09T18:33:20.827941Z",
+    "feed_count": 38,
     "intel_records": [
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Connect Secure",
@@ -192,16 +192,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Kernel",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Linux frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Identity Services Engine",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Secure Email Gateway",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
