@@ -2,7 +2,7 @@
     "branch": "Technical CTI",
     "sector": "finance",
     "description": "Machine-readable network reputation blocklist for active finance firewall objects.",
-    "last_updated": "2026-11-14T17:49:20.448274Z",
+    "last_updated": "2026-11-14T23:45:26.645627Z",
     "indicators": [
         {
             "type": "ipv4-addr",
