@@ -1,13 +1,13 @@
 {
-    "last_updated": "2026-11-16T12:17:00.357306Z",
+    "last_updated": "2026-11-16T23:06:53.746429Z",
     "malicious_ips": [
         {
-            "ip_address": "101.206.210.3",
+            "ip_address": "101.32.116.104",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
         {
-            "ip_address": "101.32.116.104",
+            "ip_address": "101.32.126.162",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
@@ -37,22 +37,12 @@
             "confidence": "High"
         },
         {
-            "ip_address": "101.96.192.45",
-            "threat_type": "Compromised Host / Botnet",
-            "confidence": "High"
-        },
-        {
             "ip_address": "102.220.161.119",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
         {
             "ip_address": "102.220.161.173",
-            "threat_type": "Compromised Host / Botnet",
-            "confidence": "High"
-        },
-        {
-            "ip_address": "102.220.161.174",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
@@ -68,6 +58,11 @@
         },
         {
             "ip_address": "103.132.1.231",
+            "threat_type": "Compromised Host / Botnet",
+            "confidence": "High"
+        },
+        {
+            "ip_address": "103.143.239.193",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
@@ -92,6 +87,11 @@
             "confidence": "High"
         },
         {
+            "ip_address": "103.215.187.144",
+            "threat_type": "Compromised Host / Botnet",
+            "confidence": "High"
+        },
+        {
             "ip_address": "103.28.37.12",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
@@ -102,12 +102,12 @@
             "confidence": "High"
         },
         {
-            "ip_address": "103.83.86.180",
+            "ip_address": "103.41.206.80",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
         {
-            "ip_address": "103.83.87.203",
+            "ip_address": "103.42.57.15",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
@@ -118,6 +118,21 @@
         },
         {
             "ip_address": "103.90.224.22",
+            "threat_type": "Compromised Host / Botnet",
+            "confidence": "High"
+        },
+        {
+            "ip_address": "103.9.184.22",
+            "threat_type": "Compromised Host / Botnet",
+            "confidence": "High"
+        },
+        {
+            "ip_address": "103.94.164.111",
+            "threat_type": "Compromised Host / Botnet",
+            "confidence": "High"
+        },
+        {
+            "ip_address": "103.98.152.181",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
@@ -138,21 +153,6 @@
         },
         {
             "ip_address": "104.199.27.11",
-            "threat_type": "Compromised Host / Botnet",
-            "confidence": "High"
-        },
-        {
-            "ip_address": "104.199.68.22",
-            "threat_type": "Compromised Host / Botnet",
-            "confidence": "High"
-        },
-        {
-            "ip_address": "104.214.173.41",
-            "threat_type": "Compromised Host / Botnet",
-            "confidence": "High"
-        },
-        {
-            "ip_address": "104.248.167.164",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
@@ -197,7 +197,12 @@
             "confidence": "High"
         },
         {
-            "ip_address": "110.142.146.188",
+            "ip_address": "111.119.44.29",
+            "threat_type": "Compromised Host / Botnet",
+            "confidence": "High"
+        },
+        {
+            "ip_address": "112.161.27.117",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         },
@@ -242,12 +247,7 @@
             "confidence": "High"
         },
         {
-            "ip_address": "116.110.154.161",
-            "threat_type": "Compromised Host / Botnet",
-            "confidence": "High"
-        },
-        {
-            "ip_address": "116.110.158.0",
+            "ip_address": "116.110.150.166",
             "threat_type": "Compromised Host / Botnet",
             "confidence": "High"
         }
