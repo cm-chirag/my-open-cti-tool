@@ -1,9 +1,19 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-11-20T16:50:42.105079Z",
-    "feed_count": 39,
+    "last_updated": "2026-11-21T01:13:24.091420Z",
+    "feed_count": 38,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Roller",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Apache frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Expressway Series",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at DiskStation Manager (DSM)",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Synology frameworks.",
@@ -182,21 +192,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Zammad",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Zammad GmbH frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Catalyst SD-WAN Manager",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Cisco frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Multiple Products",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Apple frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at NetScaler",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Citrix frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
