@@ -1,9 +1,14 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-11-23T14:13:46.619930Z",
+    "last_updated": "2026-11-24T02:48:25.891076Z",
     "feed_count": 38,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at MONAI Label",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Project MONAI frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Roller",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Apache frameworks.",
@@ -182,11 +187,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at ProFTPD",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking ProFTPD frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Zammad",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Zammad GmbH frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         },
         {
