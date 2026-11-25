@@ -1,9 +1,19 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-11-24T14:40:24.934686Z",
+    "last_updated": "2026-11-25T00:28:25.840268Z",
     "feed_count": 38,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at AntiCsrf",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Idunno frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Core",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Drupal frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at MONAI Label",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Project MONAI frameworks.",
@@ -182,16 +192,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Docs",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking ONLYOFFICE frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at ProFTPD",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking ProFTPD frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Zammad",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Zammad GmbH frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]
