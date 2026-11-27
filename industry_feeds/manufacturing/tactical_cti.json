@@ -1,9 +1,24 @@
 {
     "branch": "Tactical CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-11-27T13:37:25.389684Z",
-    "feed_count": 32,
+    "last_updated": "2026-11-27T23:57:13.725060Z",
+    "feed_count": 33,
     "intel_records": [
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at GeoServer",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking OSGeo frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at GeoServer",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking OSGeo frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
+        {
+            "threat_actor_activity": "In-the-wild exploitation targeted at Core",
+            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Drupal frameworks.",
+            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
+        },
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Juniper Session Smart Conductor and Session Smart Router",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Hewlett Packard Enterprise (HPE) frameworks.",
@@ -152,16 +167,6 @@
         {
             "threat_actor_activity": "In-the-wild exploitation targeted at Software Center",
             "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Siemens frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Remote Support",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking BeyondTrust frameworks.",
-            "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
-        },
-        {
-            "threat_actor_activity": "In-the-wild exploitation targeted at Multiple Products",
-            "detection_logic_focus": "Verify process runtime traces for anomalous payloads invoking Atlassian frameworks.",
             "attack_vector_classification": "Initial Access / Privilege Escalation Execution"
         }
     ]

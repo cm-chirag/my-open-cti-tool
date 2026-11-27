@@ -1,9 +1,24 @@
 {
     "branch": "Strategic CTI",
     "vertical_sector": "manufacturing",
-    "last_updated": "2026-11-27T13:37:25.391364Z",
-    "feed_count": 32,
+    "last_updated": "2026-11-27T23:57:13.725249Z",
+    "feed_count": 33,
     "intel_records": [
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing GeoServer.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing GeoServer.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
+        {
+            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Core.",
+            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
+            "governance_priority": "Critical patch deployment cycle acceleration needed."
+        },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Juniper Session Smart Conductor and Session Smart Router.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
@@ -151,16 +166,6 @@
         },
         {
             "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Software Center.",
-            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
-            "governance_priority": "Critical patch deployment cycle acceleration needed."
-        },
-        {
-            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Remote Support.",
-            "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
-            "governance_priority": "Critical patch deployment cycle acceleration needed."
-        },
-        {
-            "executive_alert": "Active exploitation campaign tracking against manufacturing deployments utilizing Multiple Products.",
             "operational_impact": "Potential system takeover, ransomware exposure risk, or sensitive data loss profile.",
             "governance_priority": "Critical patch deployment cycle acceleration needed."
         }
